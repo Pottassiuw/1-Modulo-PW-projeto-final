@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title></title>
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href=""><img src="Assets/logotipo-etec.png" alt="LogoEtec"></a> 
+            </div>
+            <ul class="nav__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cursos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Automação Industrial</a></li>
+                      <li><a class="dropdown-item" href="#">Desenvolvimento de sistemas</a></li>
+                      <li><a class="dropdown-item" href="#">Adiministração</a></li>
+                    </ul>
+                  </div>
+            </ul>
+            <a class="contact" href="#"><button>Contato</button></a>
+        </nav>
+    </header>
+
 </body>
 </html>

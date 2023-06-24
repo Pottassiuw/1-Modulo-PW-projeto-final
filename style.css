@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    min-height: 55px;
+    align-items: center;
+    border: 0.5px solid rgba(153, 153, 153, 0.534);
+    border-radius: 5px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-left: 10px
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nav__links > li{
+    display: inline-flex;
+    padding: 0px 30px;
+    align-items: center;
+}
+
+.nav__links > li > a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.nav__links > li > a:hover {
+    cursor: pointer;
+
+}
+button {
+    border: none;
+    border-radius: 40px;
+    padding: 9px;
+    background-color: rgb(6, 141, 6);
+    margin-right: 40px;
+    transition: 0.7 all ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(6, 141, 6, 0.8);
+}
+
