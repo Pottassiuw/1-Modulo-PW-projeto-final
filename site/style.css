@@ -2,23 +2,30 @@
 
 * {
     font-family: 'Poppins', sans-serif;
+    color: #FFF;
 }
-
+body {
+    background-color:#28282e;
+}
 .navbar {
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-between;
     min-width: 100%;
-    min-height: 55px;
+    min-height: 45px;
     align-items: center;
-    border: 0.5px solid rgba(153, 153, 153, 0.534);
-    border-radius: 5px;
+    background-color: #1b1b22 ;
 }
 
-.logo {
+.logo > h1{
     cursor: pointer;
-    margin-left: 10px
+    margin-left: 20px;
+    transition: 0.3s all ease-out;
+}
+.logo > h1:hover {
+    color: #a0eafd;
+    letter-spacing: 4px;
 }
 
 .nav__links {
@@ -36,23 +43,50 @@
 
 .nav__links > li > a{
     text-decoration: none;
-    color: black;
+    color: #FFF;
     cursor: pointer;
+    transition: 0.3s all ease-out;
 }
 .nav__links > li > a:hover {
     cursor: pointer;
+    text-decoration: underline;
+    color: #21c6efc4;
 
 }
-button {
+.contact > button {
     border: none;
     border-radius: 40px;
     padding: 9px;
-    background-color: rgb(6, 141, 6);
+    background-color: #21c6efb0;
     margin-right: 40px;
-    transition: 0.7 all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+.dropdown > a{
+    background-color: #2c2c35;
+    border: none;
+}
+.dropdown > a:hover {
+    background-color: #21c6ef52;
+}
+.contact > button:hover {
+    background-color: #21c6efc4;
 }
 
-button:hover {
-    background-color: rgba(6, 141, 6, 0.8);
+.dropdown-menu {
+    background-color: #1b1b22;
 }
 
+.dropdown-menu > li > a{
+    color: white;
+}
+
+.dropdown-menu > li >a:hover{
+    background-color: #21c6ef52;
+    color: white;
+}
+
+.title {
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+}
