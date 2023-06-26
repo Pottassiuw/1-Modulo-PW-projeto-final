@@ -107,20 +107,22 @@ body {
     display: flexbox;
     text-align: center;
     align-items: center;
-    margin: 95px auto;
-    width: 100%;
-    border: 1px solid #4b96a0;
+    margin: 115px auto;
+    width: 98.6541%;
     height: 800px;
-    border-radius: 30px;
     background-color: #212125;
     padding-top: 10px;
 }
 
-.Title-t {
+.Title-T {
     margin: 5px auto;
     width: 30%;
     border-radius: 10px;
     padding-bottom: 10px;
+}
+
+.Title-T{
+    font-weight: bolder;
 }
 
 .carousel {
@@ -128,9 +130,11 @@ body {
     margin: 0px auto;
 
 }
+
 .c-item {
     height: 70vh;
 }
+
 .c-img {
     height: 100%;
     object-fit: cover;
@@ -162,7 +166,7 @@ body {
     width: 90%;
     height: 300px;
     margin: 0 auto;
-    
+
 }
 
 .cont-container {
@@ -181,14 +185,98 @@ body {
 .c-title {
     margin: 10px;
 }
+
 .cont-content {
     margin: 10px;
 }
+
 footer {
-    background-color: #212125;
     text-align: center;
+    margin: 0 auto;
+    width: 100%;
 }
 
-footer > p{
+footer>p {
     letter-spacing: 5px;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.container__1 {
+    background-color: #212125;
+    width: 99%;
+    margin: 0 auto;
+}
+.c-cursos {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+    
+}
+
+.cursos-adm {
+    display: flexbox;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.cursos-adm>img {
+    width: 500px;
+    height: 330px;
+    border-radius: 25px;
+    transition: 0.3s all ease-in-out;
+}
+.cursos-adm >img:hover{
+    scale: 1.05;
+}
+.cursos-ds {
+    display: flexbox;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.cursos-ds>img {
+    width: 500px;
+    height: 330px;
+    border-radius: 25px;
+    transition: 0.3s all ease-in-out;
+}
+.cursos-ds >img:hover{
+    scale: 1.05;
+}
+.cursos-automacao {
+    display: flexbox;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.cursos-automacao>img {
+    width: 500px;
+    height: 330px;
+    border-radius: 25px;
+    transition: 0.3s all ease-in-out;
+}
+.cursos-automacao >img:hover{
+    scale: 1.05;
+}
+.botão {
+    margin-top: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #21c6efb0;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: 0.3s all ease-in-out;
+}
+
+.botão:hover {
+    background-color: #21c6efe3;
+}
+
+.title-cursos > h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
