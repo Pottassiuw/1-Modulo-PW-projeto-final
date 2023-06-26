@@ -165,3 +165,20 @@ body {
     
 }
 
+.cont-container {
+
+    display: flexbox;
+    justify-content: center;
+    width: 60%;
+    margin: 25vh auto;
+    background-color: #212125;
+    border: 1px solid #4b96a0;
+    align-items: center;
+    align-content: center;
+    border-radius: 30px;
+}
+
+.c-title {
+    background-color: #4b96a0;
+    border-radius: 30px;
+}
