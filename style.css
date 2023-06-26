@@ -179,6 +179,16 @@ body {
 }
 
 .c-title {
-    background-color: #4b96a0;
-    border-radius: 30px;
+    margin: 10px;
+}
+.cont-content {
+    margin: 10px;
+}
+footer {
+    background-color: #212125;
+    text-align: center;
+}
+
+footer > p{
+    letter-spacing: 5px;
 }
