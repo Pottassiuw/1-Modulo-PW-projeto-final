@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+
+body {
+    background-color: #16161a;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    min-height: 45px;
+    align-items: center;
+    background-color: #111116;
+    position: fixed;
+    z-index: 999;
+}
+
+.logo>a>h1 {
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.32s all ease-out;
+}
+
+.logo>a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo>a:hover {
+    color: #a0eafd;
+    letter-spacing: 3px;
+    scale: 1.05;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nav__links>li {
+    display: inline-flex;
+    padding: 0px 30px;
+    align-items: center;
+}
+
+.nav__links>li>a {
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.3s all ease-out;
+}
+
+.nav__links>li>a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #21c6efc4;
+    scale: 1.05;
+
+}
+
+.contact>button {
+    border: none;
+    border-radius: 40px;
+    padding: 9px;
+    background-color: #21c6efb0;
+    margin-right: 40px;
+    transition: 0.3s all ease-in-out;
+}
+
+.dropdown>a {
+    background-color: #2c2c35;
+    border: none;
+}
+
+.dropdown>a:hover {
+    background-color: #21c6ef52;
+}
+
+.contact>button:hover {
+    background-color: #21c6efe3;
+    scale: 1.1
+}
+
+.dropdown-menu {
+    background-color: #1b1b22;
+}
+
+.dropdown-menu>li>a {
+    color: white;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #21c6ef52;
+    color: white;
+}
+
+.title {
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+    margin: 95px auto;
+    width: 100%;
+    border: 1px solid #4b96a0;
+    height: 800px;
+    border-radius: 30px;
+    background-color: #212125;
+    padding-top: 10px;
+}
+
+.Title-t {
+    margin: 5px auto;
+    width: 30%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.carousel {
+    width: 95%;
+    margin: 0px auto;
+
+}
+.c-item {
+    height: 70vh;
+}
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.c-img {
+    filter: brightness(0.7) opacity(0.8);
+    transition: 0.4s all ease-out
+}
+
+.c-img:hover {
+    filter: brightness(0.8) opacity(1);
+}
+
+.saiba_mais {
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    background-color: #212125;
+    border-radius: 30px;
+    width: 99%;
+    margin: 0px auto;
+    border: 1px solid #4b96a0;
+    margin-top: -60px;
+}
+
+.saiba_mais>video {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    
+}
+
