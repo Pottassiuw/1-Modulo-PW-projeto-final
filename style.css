@@ -155,19 +155,24 @@ body {
     text-align: center;
     background-color: #212125;
     border-radius: 30px;
-    width: 50%;
+    width: 70%;
+    height: 750px;
     margin: 0px auto;
-    border: 1px solid #4b96a0;
+    border: 0.5px solid #6e6e6e;
     margin-top: 100px;
     margin-left: 300px;
     margin-right: 100px;
 }
 
 .saiba_mais>video {
-    width: 90%;
-    height: 300px;
+    width: 95%;
+    height: 560px;
     margin: 0 auto;
 
+}
+
+.saiba_mais >h2{
+    margin-top: 50px;
 }
 
 .cont-container {
@@ -308,11 +313,17 @@ footer>p {
     text-align: center;
     margin: 50px;
 }
+.content-atm {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
 
+}
 .content-atm>h4 {
     text-align: center;
     padding-top: 10px;
-    background-color: rgba(122, 105, 105, 0.6);
+    padding: 20px;
+    background-color: rgba(59, 57, 57, 0.5);
     border-radius: 20px;
     margin-left: 30px;
     margin-right: 30px;
@@ -329,7 +340,6 @@ footer>p {
     margin-left: 160px;
     margin-top: 50px;
     margin-bottom: 50px;
-
 }
 
 .content-atm>img:hover {
