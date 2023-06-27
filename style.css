@@ -121,7 +121,7 @@ body {
     padding-bottom: 10px;
 }
 
-.Title-T{
+.Title-T {
     font-weight: bolder;
 }
 
@@ -207,13 +207,14 @@ footer>p {
     width: 99%;
     margin: 0 auto;
 }
+
 .c-cursos {
     display: flex;
     flex-direction: row;
     text-align: center;
     width: 100%;
     padding-bottom: 30px;
-    
+
 }
 
 .cursos-adm {
@@ -228,9 +229,11 @@ footer>p {
     border-radius: 25px;
     transition: 0.3s all ease-in-out;
 }
-.cursos-adm >img:hover{
+
+.cursos-adm>img:hover {
     scale: 1.05;
 }
+
 .cursos-ds {
     display: flexbox;
     width: 33%;
@@ -243,9 +246,11 @@ footer>p {
     border-radius: 25px;
     transition: 0.3s all ease-in-out;
 }
-.cursos-ds >img:hover{
+
+.cursos-ds>img:hover {
     scale: 1.05;
 }
+
 .cursos-automacao {
     display: flexbox;
     width: 33%;
@@ -258,9 +263,11 @@ footer>p {
     border-radius: 25px;
     transition: 0.3s all ease-in-out;
 }
-.cursos-automacao >img:hover{
+
+.cursos-automacao>img:hover {
     scale: 1.05;
 }
+
 .botão {
     margin-top: 10px;
     border: none;
@@ -275,8 +282,34 @@ footer>p {
     background-color: #21c6efe3;
 }
 
-.title-cursos > h1{
+.title-cursos>h1 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.content-atm > h4 {
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(136, 129, 129);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content-atm > img {
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+    transition: 0.3s all ease-in-out;
+    display: inline-flex;
+    flex-direction: row;
+    filter: brightness(0.9) opacity(0.8);
+    margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content-atm > img:hover {
+    scale: 1.05;
 }
