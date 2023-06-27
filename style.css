@@ -155,10 +155,12 @@ body {
     text-align: center;
     background-color: #212125;
     border-radius: 30px;
-    width: 99%;
+    width: 50%;
     margin: 0px auto;
     border: 1px solid #4b96a0;
-    margin-top: -60px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 100px;
 }
 
 .saiba_mais>video {
