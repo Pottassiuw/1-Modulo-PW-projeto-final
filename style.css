@@ -110,7 +110,6 @@ body {
     margin: 115px auto;
     width: 98.6541%;
     height: 800px;
-    background-color: #212125;
     padding-top: 10px;
 }
 
@@ -121,12 +120,12 @@ body {
     padding-bottom: 10px;
 }
 
-.Title-T{
+.Title-T {
     font-weight: bolder;
 }
 
 .carousel {
-    width: 95%;
+    width: 75%;
     margin: 0px auto;
 
 }
@@ -138,7 +137,7 @@ body {
 .c-img {
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .c-img {
@@ -203,64 +202,81 @@ footer>p {
 }
 
 .container__1 {
-    background-color: #212125;
-    width: 99%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
+
+.container__2 {
+    display: flex;
+    justify-content: center;
+}
+
 .c-cursos {
     display: flex;
     flex-direction: row;
     text-align: center;
     width: 100%;
     padding-bottom: 30px;
-    
+
 }
 
 .cursos-adm {
     display: flexbox;
-    width: 33%;
-    margin: 0 auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 .cursos-adm>img {
     width: 500px;
     height: 330px;
     border-radius: 25px;
+    margin: 24px;
     transition: 0.3s all ease-in-out;
 }
-.cursos-adm >img:hover{
+
+.cursos-adm>img:hover {
     scale: 1.05;
 }
+
 .cursos-ds {
     display: flexbox;
-    width: 33%;
-    margin: 0 auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 .cursos-ds>img {
     width: 500px;
     height: 330px;
     border-radius: 25px;
+    margin: 24px;
     transition: 0.3s all ease-in-out;
 }
-.cursos-ds >img:hover{
+
+.cursos-ds>img:hover {
     scale: 1.05;
 }
+
 .cursos-automacao {
     display: flexbox;
-    width: 33%;
-    margin: 0 auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 .cursos-automacao>img {
     width: 500px;
     height: 330px;
     border-radius: 25px;
+    margin: 24px;
     transition: 0.3s all ease-in-out;
 }
-.cursos-automacao >img:hover{
+
+.cursos-automacao>img:hover {
     scale: 1.05;
 }
+
 .botão {
     margin-top: 10px;
     border: none;
@@ -273,9 +289,10 @@ footer>p {
 
 .botão:hover {
     background-color: #21c6efe3;
+    scale: 1.05;
 }
 
-.title-cursos > h1{
+.title-cursos>h1 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
