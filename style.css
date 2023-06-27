@@ -120,7 +120,7 @@ body {
     padding-bottom: 10px;
 }
 
-.Title-T  {
+.Title-T {
     font-weight: bolder;
 }
 
@@ -305,4 +305,31 @@ footer>p {
 .veja-mais {
     text-align: center;
     margin: 50px;
+}
+
+.content-atm>h4 {
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgba(122, 105, 105, 0.6);
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.content-atm>img {
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+    transition: 0.3s all ease-in-out;
+    display: inline-flex;
+    flex-direction: row;
+    filter: brightness(0.9) opacity(0.8);
+    margin-left: 160px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.content-atm>img:hover {
+    scale: 1.05;
 }
