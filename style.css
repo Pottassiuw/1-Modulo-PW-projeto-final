@@ -110,7 +110,6 @@ body {
     margin: 115px auto;
     width: 98.6541%;
     height: 800px;
-    background-color: #212125;
     padding-top: 10px;
 }
 
@@ -121,12 +120,12 @@ body {
     padding-bottom: 10px;
 }
 
-.Title-T {
+.Title-T  {
     font-weight: bolder;
 }
 
 .carousel {
-    width: 95%;
+    width: 75%;
     margin: 0px auto;
 
 }
@@ -138,7 +137,7 @@ body {
 .c-img {
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .c-img {
@@ -197,15 +196,19 @@ footer {
 }
 
 footer>p {
-    letter-spacing: 5px;
-    margin-top: 40px;
+    letter-spacing: 2px;
+    margin-top: 60px;
     padding: 30px;
 }
 
 .container__1 {
-    background-color: #212125;
-    width: 99%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container__2 {
+    display: flex;
+    justify-content: center;
 }
 
 .c-cursos {
@@ -219,14 +222,16 @@ footer>p {
 
 .cursos-adm {
     display: flexbox;
-    width: 33%;
-    margin: 0 auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 .cursos-adm>img {
     width: 500px;
     height: 330px;
     border-radius: 25px;
+    margin: 24px;
     transition: 0.3s all ease-in-out;
 }
 
@@ -236,14 +241,16 @@ footer>p {
 
 .cursos-ds {
     display: flexbox;
-    width: 33%;
-    margin: 0 auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 .cursos-ds>img {
     width: 500px;
     height: 330px;
     border-radius: 25px;
+    margin: 24px;
     transition: 0.3s all ease-in-out;
 }
 
@@ -253,14 +260,16 @@ footer>p {
 
 .cursos-automacao {
     display: flexbox;
-    width: 33%;
-    margin: 0 auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 .cursos-automacao>img {
     width: 500px;
     height: 330px;
     border-radius: 25px;
+    margin: 24px;
     transition: 0.3s all ease-in-out;
 }
 
@@ -280,6 +289,7 @@ footer>p {
 
 .botão:hover {
     background-color: #21c6efe3;
+    scale: 1.05;
 }
 
 .title-cursos>h1 {
@@ -288,28 +298,11 @@ footer>p {
     padding-bottom: 20px;
 }
 
-.content-atm > h4 {
+#conteudo-adicional {
+    display: none;
+}
+
+.veja-mais {
     text-align: center;
-    padding-top: 10px;
-    background-color: rgb(136, 129, 129);
-    border-radius: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.content-atm > img {
-    width: 400px;
-    height: 300px;
-    border-radius: 25px;
-    transition: 0.3s all ease-in-out;
-    display: inline-flex;
-    flex-direction: row;
-    filter: brightness(0.9) opacity(0.8);
-    margin-left: 160px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.content-atm > img:hover {
-    scale: 1.05;
+    margin: 50px;
 }
